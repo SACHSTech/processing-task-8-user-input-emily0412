@@ -57,21 +57,6 @@ public class Sketch extends PApplet {
       }
     }
 
-    /*if (keyPressed) {
-      if (keyCode == UP) {
-        imgBumblebee(bumblebeeX, bumblebeeY -= 10);
-      } 
-      else if (keyCode == DOWN) {
-        imgBumblebee(bumblebeeX, bumblebeeY += 10);
-      } 
-      else if(keyCode == LEFT){
-        imgBumblebee(bumblebeeX -= 10, bumblebeeY);
-      }
-      else if(keyCode == RIGHT){
-       imgBumblebee(bumblebeeX += 10, bumblebeeY); 
-      }
-    }*/
-
     text(message, 25, 150);
 
     if (upPressed) {
